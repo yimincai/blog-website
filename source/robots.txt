@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+Allow: /about/
+Allow: /archives/
+Allow: /categories/
+Allow: /tags/ 
+Disallow: /vendors/
+Disallow: /fancybox/
+
+Sitemap: https://yimincai.net/sitemap.xml
+Sitemap: https://yimincai.net/baidusitemap.xml
