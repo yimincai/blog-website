@@ -577,8 +577,8 @@ comments:
 
 # Disqus
 disqus:
-  enable: false
-  shortname:
+  enable: true
+  shortname: yimincai
   count: true
   #post_meta_order: 0
 
