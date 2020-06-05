@@ -116,7 +116,7 @@ baidusitemap:
     exclude:  # 不加上 nofollow 的友情連結可以放在這邊。
     # - exclude.com
   
-# githubEmojis:
+# githubEmojis: # it makes css crash....
   # enable: true
   # className: github-emoji
   # inject: true
