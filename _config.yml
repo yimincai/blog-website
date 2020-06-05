@@ -116,6 +116,12 @@ baidusitemap:
     exclude:  # 不加上 nofollow 的友情連結可以放在這邊。
     # - exclude.com
   
+# githubEmojis:
+  # enable: true
+  # className: github-emoji
+  # inject: true
+  # styles:
+  # customEmojis:
 
 # Borken
 # # 壓縮文章
