@@ -19,7 +19,8 @@ command not found code
 
 <!-- more -->
 
-{% asset_img code-command-not-found.png %}
+<!-- {% asset_img code-command-not-found.png %} -->
+![code-command-not-found](https://firebasestorage.googleapis.com/v0/b/hexo-neil-blog-db.appspot.com/o/blog-img%2Fvisual-studio-code-command-not-found%2Fcode-command-not-found.png?alt=media&token=6c53f011-5b14-4bec-9af0-f75f757ce5e2)
 
 # 除錯
 
@@ -29,7 +30,8 @@ command not found code
 選擇 **Install 'code' command in PATH**
 
 
-{% asset_img vscode-shell-command.png %}
+<!-- {% asset_img vscode-shell-command.png %} -->
+![vscode-shell-command](https://firebasestorage.googleapis.com/v0/b/hexo-neil-blog-db.appspot.com/o/blog-img%2Fvisual-studio-code-command-not-found%2Fvscode-shell-command.png?alt=media&token=717e613c-f83d-4476-b7e3-e624e46a46f8)
 
 最後重啟Terminal或執行(`~/.bash_profile`, `~/.zshrc`, `~/.profile`, or `~/.bashrc`)：
 

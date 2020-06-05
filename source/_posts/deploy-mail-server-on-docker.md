@@ -187,7 +187,8 @@ Ex. MacOS、Linux的檔案位置如下：
 /etc/hosts
 ```
 
-{% asset_img bind-rsa-in-hosts.png %}
+<!-- {% asset_img bind-rsa-in-hosts.png %} -->
+![bind-rsa-in-hosts](https://firebasestorage.googleapis.com/v0/b/hexo-neil-blog-db.appspot.com/o/blog-img%2Fdeploy-mail-server-on-docker%2Fbind-rsa-in-hosts.png?alt=media&token=2cbd7878-457a-4b03-944c-e0255bc246b9)
 
 # 建立SSL
 
@@ -281,5 +282,6 @@ $ docker exec mail openssl s_client -connect 0.0.0.0:993 -starttls imap -CApath 
 
 # **測試結果**
 
-{% asset_img test-result.jpg %}
+<!-- {% asset_img test-result.jpg %} -->
+![test-result](https://firebasestorage.googleapis.com/v0/b/hexo-neil-blog-db.appspot.com/o/blog-img%2Fdeploy-mail-server-on-docker%2Ftest-result.jpg?alt=media&token=05511f6c-9d7f-4535-8f97-3561027b599c)
 

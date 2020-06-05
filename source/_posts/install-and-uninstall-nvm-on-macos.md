@@ -27,7 +27,8 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
 
 結果如下：
 
-{% asset_img install-nvm.png %}
+<!-- {% asset_img install-nvm.png %} -->
+![install-nvm](https://firebasestorage.googleapis.com/v0/b/hexo-neil-blog-db.appspot.com/o/blog-img%2Finstall-and-uninstall-nvm-on-macos%2Finstall-nvm.png?alt=media&token=093fbf27-7a3e-4048-a859-7a4cfcc461c0)
 
 上面指令會將 `nvm` 的repository複製到 `~/.nvm` ，然後把source line加進你的 profile ( `~/.bash_profile` , `~/.zshrc` , `~/.profile` , or `~/.bashrc` )，之中；以我的例子會寫到 `~/.zshrc` 中，我們可以使用 `vim` 打開來看看：
 
@@ -37,7 +38,8 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash
 ```
 
-{% asset_img nvm-zshrc.png %}
+<!-- {% asset_img nvm-zshrc.png %} -->
+![nvm-zshrc](https://firebasestorage.googleapis.com/v0/b/hexo-neil-blog-db.appspot.com/o/blog-img%2Finstall-and-uninstall-nvm-on-macos%2Fnvm-zshrc.png?alt=media&token=f3d37519-0597-44a1-b209-9ee6e5ac77ac)
 
 完成以後，我們重新載入 `~/.zshrc` 看看 `nvm` 這個指令能不能用，顯示如下圖就代表安裝完成啦！
 
@@ -45,7 +47,8 @@ export NVM_DIR="$HOME/.nvm"
 nvm --verison
 ```
 
-{% asset_img nvm-version.png %}
+<!-- {% asset_img nvm-version.png %} -->
+![nvm-version](https://firebasestorage.googleapis.com/v0/b/hexo-neil-blog-db.appspot.com/o/blog-img%2Finstall-and-uninstall-nvm-on-macos%2Fnvm-version.png?alt=media&token=1b0525db-0dd1-44ce-a43a-44cf1c617553)
 
 # NVM 指令
 
@@ -55,11 +58,13 @@ nvm --verison
 nvm ls-remote
 ```
 
-{% asset_img nvm-ls-remote.png %}
+<!-- {% asset_img nvm-ls-remote.png %} -->
+![nvm-ls-remote](https://firebasestorage.googleapis.com/v0/b/hexo-neil-blog-db.appspot.com/o/blog-img%2Finstall-and-uninstall-nvm-on-macos%2Fnvm-ls-remote.png?alt=media&token=6ba4fb03-bb15-47c2-a42f-f34eea9f3776)
 
 也可以帶入<version>參數篩選：
 
-{% asset_img ./nvm-ls-remote-13.png %}
+<!-- {% asset_img nvm-ls-remote-13.png %} -->
+![nvm-ls-remote-13](https://firebasestorage.googleapis.com/v0/b/hexo-neil-blog-db.appspot.com/o/blog-img%2Finstall-and-uninstall-nvm-on-macos%2Fnvm-ls-remote-13.png?alt=media&token=8c71eb5f-877e-4dbe-a3e7-7c3d04081e94)
 
 列出本機安裝的資訊，可以看到我們都還沒安裝：
 
@@ -67,7 +72,8 @@ nvm ls-remote
 nvm ls
 ```
 
-{% asset_img nvm-ls.png %}
+<!-- {% asset_img nvm-ls.png %} -->
+![nvm-ls](https://firebasestorage.googleapis.com/v0/b/hexo-neil-blog-db.appspot.com/o/blog-img%2Finstall-and-uninstall-nvm-on-macos%2Fnvm-ls.png?alt=media&token=c24fe498-8688-4c8f-94b7-5c3306be50b8)
 
 # 安裝需要的 Node.js 版本
 
@@ -82,7 +88,8 @@ nvm use 13.13.0
 
 這樣就會安裝並使用 `13.13.0` 的 Node.js。
 
-{% asset_img nvm-install-13-13-0.png %}
+<!-- {% asset_img nvm-install-13-13-0.png %} -->
+![nvm-install-13-13-0](https://firebasestorage.googleapis.com/v0/b/hexo-neil-blog-db.appspot.com/o/blog-img%2Finstall-and-uninstall-nvm-on-macos%2Fnvm-install-13-13-0.png?alt=media&token=b88a48f8-075c-40e3-91fd-02aff9f4bb65)
 
 # 設定預設Node.js版本
 
@@ -92,7 +99,8 @@ nvm use 13.13.0
 nvm alias default 13.13.0
 ```
 
-{% asset_img nvm-alias-default.png %}
+<!-- {% asset_img nvm-alias-default.png %} -->
+![nvm-alias-default](https://firebasestorage.googleapis.com/v0/b/hexo-neil-blog-db.appspot.com/o/blog-img%2Finstall-and-uninstall-nvm-on-macos%2Fnvm-alias-default.png?alt=media&token=b77db37b-0e3f-4420-af74-b4443ea6b650)
 
 之後每次開啟都會使用 `13.13.0`
 
@@ -166,20 +174,14 @@ rm -rf /usr/local/bin/npm
 rm -rf /usr/local/bin/node_modules
 ```
 
-
-
 確認是否完整移除：
 
 ```bash
 which node
 ```
 
-
-
 # 參考資料
 
 - [Node.js](https://nodejs.org/en/)
 - [NVM GitHub](https://github.com/creationix/nvm)
 - [Node.js 環境設定-for mac](https://medium.com/@toumasaya/node-js-環境設定-for-mac-a2628836feaf)
-
-

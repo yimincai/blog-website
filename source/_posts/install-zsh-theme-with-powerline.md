@@ -11,7 +11,8 @@ mathjax: false
 ---
 
 # 成果
-{% asset_img powerline-theme.png %}
+<!-- {% asset_img powerline-theme.png %} -->
+![powerline-theme](https://firebasestorage.googleapis.com/v0/b/hexo-neil-blog-db.appspot.com/o/blog-img%2Finstall-zsh-theme-with-powerline%2Fpowerline-theme.png?alt=media&token=4c9773da-3cf3-4678-8a6b-df61749f6602)
 
 <!-- more -->
 
