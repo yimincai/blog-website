@@ -7,6 +7,7 @@ date: 2020-06-09 17:28:00
 categories: Machine Leraning
 tags:
     - Machine Learning
+    - Tensorflow
     - Windows
     - Miniconda
     - Visual Studio Code
