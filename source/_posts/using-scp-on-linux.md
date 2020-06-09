@@ -10,6 +10,7 @@ tags:
     - Terminal
 ---
 # 摘要
+
 scp是一種Linux指令，可以實現跨Internet(WAN/LAN)傳送資料。
 <!-- more -->
 

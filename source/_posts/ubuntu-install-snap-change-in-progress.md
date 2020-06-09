@@ -11,6 +11,7 @@ tags:
     - Linux
 ---
 # 摘要
+
 :warning: 我通過Ubuntu自帶的『Software』下載安裝，可是他卻提示我：
 
  ```bash

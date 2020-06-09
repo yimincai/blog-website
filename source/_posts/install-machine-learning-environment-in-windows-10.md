@@ -1,5 +1,5 @@
 ---
-title: Windows 10 建立 Machine Learning 環境
+title: Windows 10 建立 Machine Learning 開發環境
 id: install-machine-learning-environment-in-windows-10
 author: Yi-Min Cai
 mathjax: false
@@ -12,15 +12,13 @@ tags:
     - Visual Studio Code
     - Python
 ---
-# 摘要
+# 安裝Python環境（Miniconda）
 
 開啟Chrome (or any others browsers) 下載 [Miniconda](Collecting markdown>=2.6.8)，Miniconda 是 Anaconda 的輕量版本它，使用它是為了彈性調整 Python 環境，開發人員常常會有Python pip/pip3 被自己搞壞的經驗，而使用它之後，若環境損壞只需要在建立一個虛擬環境即可！
 
 <!-- more -->
 
 首先，開啟Miniconda的[下載頁面](https://www.notion.so/yimincai/Windows-Machine-Learning-d29eb73a4d26400ab8dabdd7f56fe202)
-
-# 安裝Python環境（Miniconda）
 
 ![docs-conda-io](https://firebasestorage.googleapis.com/v0/b/hexo-neil-blog-db.appspot.com/o/blog-img%2Finstall-machine-learning-environment-in-windows-10%2Fdocs-conda-io.png?alt=media&token=8142b31a-4550-42ba-a848-825b5d259561)
 
