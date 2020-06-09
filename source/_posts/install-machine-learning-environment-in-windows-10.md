@@ -15,7 +15,7 @@ tags:
 ---
 # 安裝Python環境（Miniconda）
 
-開啟Chrome (or any others browsers) 下載 [Miniconda](Collecting markdown>=2.6.8)，Miniconda 是 Anaconda 的輕量版本它，使用它是為了彈性調整 Python 環境，開發人員常常會有Python pip/pip3 被自己搞壞的經驗，而使用它之後，若環境損壞只需要在建立一個虛擬環境即可！
+開啟Chrome (or any others browsers) 下載 [Miniconda](https://docs.conda.io/en/latest/index.html)。Miniconda 是 [Anaconda](https://www.anaconda.com/) 的輕量版本，使用它是為了彈性調整 [Python](https://www.python.org/) 環境，開發人員常常會有Python pip/pip3 被自己搞壞的經驗。使用它可以重複的建立、切換、自定義 Python 環境，若環境損壞只需要在建立一個虛擬環境即可！
 
 <!-- more -->
 
