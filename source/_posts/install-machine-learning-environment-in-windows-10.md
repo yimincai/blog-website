@@ -4,8 +4,13 @@ id: install-machine-learning-environment-in-windows-10
 author: Yi-Min Cai
 mathjax: false
 date: 2020-06-09 17:28:00
-categories:
+categories: Machine Leraning
 tags:
+    - Machine Learning
+    - Windows
+    - Miniconda
+    - Visual Studio Code
+    - Python
 ---
 # 摘要
 
