@@ -237,6 +237,12 @@ pip install scikit-learn
 pip install --upgrade tensorflow
 pip install Keras
 pip install Pillow
+pip install tensorflow
+pip install torch
+.
+.
+.
+etc.
 ```
 
 ⚠ 若在 `import tensorflow as tf` 時出現： `Illegal instruction (core dumped)`經確認是CPU缺少avx指令集的關係（CPU架構太舊不支援）。
@@ -244,9 +250,9 @@ pip install Pillow
 可降低Tensorflow版本解決
 
 ```bash
-pip3 uninstall tensorflow
+pip uninstall tensorflow
 # and then
-pip3 install tensorflow==1.4
+pip install tensorflow==1.4
 ```
 
-<mark>Continue .. </mark>
+<!-- <mark>Continue .. </mark> -->
