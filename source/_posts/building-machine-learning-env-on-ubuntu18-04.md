@@ -187,7 +187,42 @@ conda info
 
 ![conda-info](https://firebasestorage.googleapis.com/v0/b/hexo-neil-blog-db.appspot.com/o/blog-img%2Fbuilding-machine-learning-env-on-ubuntu18.04%2Fconda-info.png?alt=media&token=6a57f8d9-f8c9-4e23-b6ff-5f51671bf814)
 
-## 建立Conda venv（虛擬環境）
+# 建立Conda venv（虛擬環境）
+
+確認安裝了多少個虛擬環境
+
+```bash
+conda env list
+```
+
+假設建一個名為 `ml`  的 venv 並設定Python 為3.6
+
+```bash
+conda create --name ml python=3.6
+```
+
+Press `y`
+
+![create-venv-y](https://firebasestorage.googleapis.com/v0/b/hexo-neil-blog-db.appspot.com/o/blog-img%2Fbuilding-machine-learning-env-on-ubuntu18.04%2Fcreate-venv-y.png?alt=media&token=38b2dd0f-f86e-4fee-b45e-9bcbd939323a)
+
+```bash
+# To activate this environment, use
+conda activate ml
+# To deactivate an active environment, use
+conda deactivate
+```
+
+刪除虛擬環境或package
+
+```bash
+conda remove --name ml numpy
+```
+
+刪除虛擬環境
+
+```bash
+conda env remove --name myenv
+```
 
 # 安裝 Machine Learning 相關環境
 
